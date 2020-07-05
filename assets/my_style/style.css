@@ -1,0 +1,198 @@
+.form-control {
+  text-transform: capitalize;
+  text-align: justify;
+}
+#uploadForm, #addForm, #updateForm, #deleteForm, #viewForm {
+	display: none;
+	height: 500px;
+}
+
+pre {
+    border: none;
+	background-color: #fff
+}
+
+.underline{
+	border-bottom: solid 1px #7f8c8d;
+	padding-bottom: 4px;
+	margin-top: 0px;
+	padding-left: 2px;
+}
+
+.x_panel {
+  /*border-top: solid 3px #337ab7;*/
+  border-radius: 5px;
+}
+
+
+input[readonly], input[readonly="readonly"], textarea[readonly] {
+    background-color: #F1F1F1!important;
+    border: none;
+    border-left: solid 3px #3498db;
+}
+img {
+	cursor: pointer;
+}
+.paragraph {
+	text-indent: 20px;
+	text-align: justify;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+
+.package_title {
+  	text-transform: capitalize;
+}
+
+#select-year {
+	width: 500px;
+	border-radius: 50px
+}
+
+#addForm {
+	height: 1000px;
+}
+
+
+.w3-card{border:1px solid #ccc}
+.w3-card-2,.w3-example{box-shadow:0 2px 4px 0 rgba(0,0,0,0.07),0 2px 10px 0 rgba(0,0,0,0.05) !important}
+.w3-card-4,.w3-hover-shadow:hover{box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important}
+.w3-card-8{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important}
+.w3-card-12{box-shadow:0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19) !important}
+.w3-card-16{box-shadow:0 16px 24px 0 rgba(0,0,0,0.22),0 25px 55px 0 rgba(0,0,0,0.21) !important}
+.w3-card-24{box-shadow:0 24px 24px 0 rgba(0,0,0,0.2),0 40px 77px 0 rgba(0,0,0,0.22) !important}
+
+
+body, pre {
+	/*font-family:Arial*/
+	font: "Trebuchet MS", Verdana, sans-serif;
+}
+#empty {
+	border-radius: 50%;
+	float: left;
+	width: 15px;
+	height: 15px;
+	background-color: #e64f46;
+}
+#full {
+	border-radius: 50%;
+	float: left;
+	width: 15px;
+	height: 15px;
+	background-color: #5eb854;
+}
+#critical {
+	border-radius: 50%;
+	float: left;
+	width: 15px;
+	height: 15px;
+	background-color: #eeae4a;
+}
+#safe {
+	border-radius: 50%;
+	float: left;
+	width: 15px;
+	height: 15px;
+	background-color: #03586A;
+}
+
+.btn {
+	border-radius: 1px;
+}
+
+span, table, label, .check {
+	cursor: pointer;
+}
+
+.form-control {
+	border-radius : 1px;
+}
+
+.btn {
+	border-radius : 50px;
+}
+
+.check {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+}
+
+.myModal{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.modalContainer{
+	width: 555px;
+	background: #FFFFFF;
+	margin:auto;
+	margin-top:50px;
+}
+
+.modalHeader{
+	padding:10px;
+	background: #3c7b9e;
+	color: #FFFFFF;
+	height:50px;
+	font-size:20px;
+	padding-left:15px;
+}
+
+.editHeader{
+	padding:10px;
+	background: #24bb9a;
+	color: #FFFFFF;
+	height:50px;
+	font-size:20px;
+	padding-left:15px;
+}
+
+.deleteHeader{
+	padding:10px;
+	background: #d3574b;
+	color: #FFFFFF;
+	height:50px;
+	font-size:20px;
+	padding-left:15px;
+}
+
+.modalBody{
+	padding:40px;
+}
+
+.modalFooter{
+	height:36px;
+}
+
+.footerBtn{
+	margin-right:10px;
+	margin-top:-9px;
+}
+
+.closeBtn{
+	background: #3c7b9e;
+	color: #FFFFFF;
+	border:none;
+}
+
+.closeEditBtn{
+	background: #24bb9a;
+	color: #FFFFFF;
+	border:none;
+}
+
+.closeDelBtn{
+	background: #d3574b;
+	color: #FFFFFF;
+	border:none;
+}
+
+.form-control, select {
+	border-color: rgb(177, 189, 192)
+}
